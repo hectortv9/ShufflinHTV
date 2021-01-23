@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #444;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+#frame {
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.ins {
+    flex: 0 0 auto;
+}
+
+input, button {
+    border: none;
+    flex: 0 0 auto;
+    display: block;
+    width: 100%;
+    height: 2em;
+    font-size: medium;
+    background: #222;
+    color: white;
+    margin-bottom: 1em;
+}
+
+button {
+    width: auto;
+}
+
+iframe {
+    background: #666;
+    flex: 1 1 auto;
+    display: block;
+}

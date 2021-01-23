@@ -1,0 +1,47 @@
+{
+    "name": "Shufflin HTV",
+    "description": "Everyday I'm Shufflin",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    /*
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/apple.png",
+            "32": "/images/apple.png",
+            "48": "/images/apple.png",
+            "128": "/images/apple.png"
+        }
+    },
+    */
+    
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/mushroom.png",
+            "32": "/images/mushroom.png",
+            "48": "/images/mushroom.png",
+            "128": "/images/mushroom.png"
+        }
+    },
+
+    "background": {
+        "scripts": ["/js/background.js"],
+        "persistent": false
+    },
+
+    "permissions": [
+        "contextMenus",
+        "storage",
+        "declarativeContent",
+        "activeTab",
+        "tabs"
+    ],
+    "icons": {
+        "16": "/images/mushroom.png",
+        "32": "/images/mushroom.png",
+        "48": "/images/mushroom.png",
+        "128": "/images/mushroom.png"
+    }
+}

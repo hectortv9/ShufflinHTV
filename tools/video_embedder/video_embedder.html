@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta property="og:title" content="YouTube Chromecast Speed Hack" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://greggman.github.io/youtube_chromecast_speed_hack/logo.png" />
+    <meta property="og:description" content="Set the speed of youtube videos on Chromecast" />
+    <meta name="twitter:title" content="Youtube Chromecast Speed Hack">
+    <meta name="twitter:description" content="Set the speed of youtube videos on Chromecast" />
+    <meta name="twitter:image:src" content="https://greggman.github.io/youtube_chromecast_speed_hack/logo.png">
+    <title>Youtube Chromecast Speed Hack</title>
+    <link rel="stylesheet" type="text/css" href="video_embedder.css">
+    <script src="video_embedder.js" defer></script>
+</head>
+
+<body>
+    <div id="frame">
+        <div class="ins">
+            <h1>YouTube Chromecast Speed Hack</h1>
+            <p>
+                Casting YouTube videos disables some features (e.g. playback speed). Clicking the extension's camera button embeds the video you are watching into this page so you can follow the steps below and adjust the playback speed while casting. 
+            </p>
+            <ol>
+                <li>
+                    Cast this page (click the cast button in the Chrome Toolbar).
+                </li>
+                <li>
+                    Copy and paste a YouTube URL below (skip this step if the video was already embedded by the extension.
+                </li>
+                <li>
+                    Play the video, set the playback speed.
+                </li>
+                <li>
+                    Click the fullscreen icon in the bottom right of the video.
+                </li>
+            </ol>
+            <div>
+                <button class="toggleHideShowButton">…</button>
+                <div id="bookmarkletHint" style="display:none;">
+                <p>
+                    You can also create a bookmarklet (bookmark stored in a web browser that contains JavaScript commands
+                    to add functionality to the browser as a "one-click" tool).
+                </p>
+                <ol>
+                    <li>
+                        Create a bookmark with the following code as URL:
+                        <br><blockquote><b><i>javascript:(function () { (window.location.href = "https://greggman.github.io/youtube_chromecast_speed_hack/?" + window.location.href) }());</i></b></blockquote>
+                    </li>
+                    <li>
+                        Open the bookmark when you're on a YouTube page to quickly apply this speed hack.
+                    </li>
+                </ol>
+                </div>
+            </div>
+        </div>
+        <input type="text" id="url" placeholder=" … paste YouTube URL here …" />
+        <iframe frameborder="0" allowfullscreen></iframe>
+    </div>
+</body>
+
+</html>

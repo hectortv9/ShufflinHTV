@@ -1,0 +1,60 @@
+.emojiButton {
+    outline: none;/*avoid white outline when at all times, even when focused*/
+    font-size: 2em;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0.4em auto;
+    border-radius: 30%;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    width: 4em;
+    height: 4em;
+    line-height: 3em;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1), inset 0 0 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#derangementButton {
+    color: #dcfbb4;
+    background-color: rgb(250, 230, 150);
+    border: 0.4em solid rgb(230, 190, 30);
+}
+
+#derangementButton:hover {
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.1), inset 0 0 1em rgba(0, 0, 0, 0.1);
+    background-color: rgb(190, 240, 180);
+    border: 0.4em solid green;
+}
+
+#derangementButton:before {
+    content: "🤢";
+}
+
+#derangementButton:hover:before {
+    content: "🤮";
+}
+
+#videoEmbeddersButton {
+    color: #dcfbb4;
+    background-color: rgb(250, 230, 150);
+    border: 0.4em solid rgb(230, 190, 30);
+}
+
+#videoEmbeddersButton:hover {
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.1), inset 0 0 1em rgba(0, 0, 0, 0.1);
+    background-color: rgb(190, 240, 180);
+    border: 0.4em solid green;
+}
+
+#videoEmbeddersButton:before {
+    content: "🎥";
+}
+
+#videoEmbeddersButton:hover:before {
+    content: "📺";
+}
+
+body {
+    background: black;
+}

@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta property="og:title" content="Youtube Chromecast Speed Hack" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://greggman.github.io/youtube_chromecast_speed_hack/logo.png" />
+    <meta property="og:description" content="Set the speed of youtube videos on Chromecast" />
+    <meta name="twitter:title" content="Youtube Chromecast Speed Hack">
+    <meta name="twitter:description" content="Set the speed of youtube videos on Chromecast" />
+    <meta name="twitter:image:src" content="https://greggman.github.io/youtube_chromecast_speed_hack/logo.png">
+    <link rel="stylesheet" type="text/css" href="/video_embedder.css">
+    <script src="/video_embedder.js" defer></script>
+    <title>Youtube Chromeast Speed Hack</title>
+</head>
+
+<body>
+    <div id="frame">
+        <div class="ins">
+            <h1>Youtube Chromecast Speed Hack</h1>
+            <ol>
+                <li>
+                    Cast this page (click the cast button in the Chrome Toolbar)
+                </li>
+                <li>
+                    Copy and paste a youtube URL below
+                </li>
+                <li>
+                    Play the video, set the playback speed
+                </li>
+                <li>
+                    Click the fullscreen icon in the bottom right of the video
+                </li>
+            </ol>
+        </div>
+        <p>
+            You can also use
+              <a href='javascript:(function () { 
+              (window.location.href = "https://greggman.github.io/youtube_chromecast_speed_hack/?" + window.location.href)
+              }());'>
+            this bookmarklet</a>
+            by bookmarking it and clicking it when you're on a youtube page to quickly apply this speed hack.
+        </p>
+        <input type="text" id="url" placeholder="..paste Youtube URL here..." />
+        <iframe frameborder="0" allowfullscreen></iframe>
+    </div>
+</body>
+
+</html>
